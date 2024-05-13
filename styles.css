@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Professores", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    height: 100%;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 419px){
+    .lista-menu{
+        display: none;
+    }
+
+    .container__botão{
+        display: none;
+    } 
+
+    .principal__texto{
+        display: none;
+    }
+
+    .principal-img{
+        display: none;
+    }
+
+    .rodape{
+        display: none;
+    }
+    
+    .moveis{
+        text-align: center;
+        display: block;
+    }
+
+    .cabeçalho{
+        padding: 10px;
+        margin-bottom: 10%;
+    }
+
+    .img-moveis{
+        margin-top: 10%;
+        margin-bottom: 10px;
+    }
+
+    .texto-moveis{
+        margin-bottom: 10px;
+        color: white;
+        font-size: 20px;
+    }
+
+    .principal__texto-moveis{
+        color: white;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .botao-moveis{
+        margin: 0 33%;
+        display: block;
+        text-align: center;
+    }
+
+    .link-moveis{
+        background: transparent;
+        padding: 8px ;
+        display: block;
+        color: white;
+        text-decoration: none;
+        border: 2px solid gainsboro;
+        border-radius: 16px;
+        margin-bottom: 8px ;
+        font-size: 14px;
+    }
+
+    .rodape{
+        display: flex;
+        margin-top: 40%;
+        justify-content: center;
+    }
+
+    .rodape__3{
+        display: flex;
+        margin-top: 55%;
+        justify-content: center;
+    }
+
+    .rodape__texto{
+        font-size: 15px;
+    }
+
+    .inicio{
+        display: none;
+    }
+
+    .inicio-moveis{
+        display: flex;
+        font-size: 14px;
+        color: beige;
+        text-decoration: none;
+        margin: 15px;
+    }
+
+    .about__texto{
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px 33px;
+        border: 4px solid white;
+    }
+
+    .rodape__2{
+        display: flex;
+        margin-top: 5%;
+        justify-content: center;
+    }
+
+    .card{
+        display: block;
+        text-align: center;
+        background: white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        text-decoration: none;
+        margin: 6% 10vw;
+        padding: 18px;
+    }
+
+    .descriçao__titulo{
+        color: black;
+        text-decoration: none;
+    }
+
+    .descriçao__paragrafo{
+        color: black;
+        text-decoration: none;
+        margin: 20px;
+    }
+
+    .card__link{
+        background-color: #167BF7;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .container__segundario{
+        display: block;
+    }
+
+    .segundario__texto{
+        text-align: center;
+        font-size: 30px;
+        margin: 25px;
+    }
+
+    .segundario__botao{
+        display: block;
+        text-align: center;
+    }
+
+    .botao__link-1{
+        display: block;
+        background-color: orange;
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: white;
+        margin: 40px;
+    }
+
+    .botao__link-2{
+        display: block;
+        background-color: gainsboro;
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        margin: 40px;
+    }
+
+    .botao__link-3{
+        display: block;
+        background-color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: red;
+        margin: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .img-moveis,.texto-moveis,.principal__texto-moveis,.botao-moveis,.inicio-moveis{
+        display: none;
+    }
+
+    .inicio{
+        margin-left: 15px;
+        display: flex;
+    }
+
+    .cabeçalho__menu-hamburguer{
+        width: 100px;
+        height: 100px;
+        margin: 15px 16px;
+        background-image: url("./imagens/Menu-Hamburguer.svg");
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+
+    .cabeçalho{
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .cabeçalho-2{
+        background-color: black;
+        display: flex;
+    }
+
+
+
+    .lista-menu{
+        text-decoration: none;
+        background-color: transparent;
+        display: none; 
+        position: absolute;
+        top: 100%;
+        width: 6vw;
+    }
+
+    .container__botão:checked ~ .lista-menu{
+        display: block;
+    }
+
+    .container__botão{
+        display: none;
+    }
+
+    ul{
+        list-style-type: none;
+    }
+
+    .lista__itens,
+    .lista__itens-link{
+        backdrop-filter: (40px);
+        text-decoration: none;
+        font-size: 20px;
+        margin: 5px 0;
+        text-align: center;
+        color: white;
+        background-color: transparent;
+    }
+
+    .container__principal{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .principal-img{
+        display: flex;
+    }
+
+    .principal__texto{
+        display: flex;
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-size: 60px;
+        padding: 40px;
+        margin: 20px;
+    }
+
+    .rodape{
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .rodape__3{
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .rodape__texto{
+        font-size: 30px;
+        color: darkgrey;
+    }
+
+    .about__texto{
+        font-family: "Professores", sans-serif;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        margin:5% auto;
+        background: transparent;
+        border: 4px solid white;
+        padding: 20px;
+    }
+
+    .container__2{
+        padding: 50px 37vw;
+    }
+
+    .container__segundario{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .segundario__texto{
+        justify-content: center;
+        font-size: 150px;
+        font-weight: 400;
+        margin-top: 140px;
+        color: whitesmoke;
+        font-family: "Poetsen One", sans-serif;
+    }
+
+    .segundario__botao{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .botao__link-1{
+        background-color: orange;
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: white;
+        margin-left: 40px;
+    }
+
+    .botao__link-2{
+        background-color: gainsboro;
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        margin-left: 40px;
+    }
+
+    .botao__link-3{
+        background-color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: red;
+        margin-left: 40px;
+    }
+
+    .card-nulo{
+        display: block;
+        text-align: center;
+        background: transparent;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        text-decoration: none;
+        margin: 1% 30vw;
+        padding: 1px;
+    }
+
+    .card{
+        display: block;
+        text-align: center;
+        background: white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        text-decoration: none;
+        margin: 6% 30vw;
+        padding: 35px;
+    }
+
+    .card__descriçao{
+        display: block;
+        justify-content: center;
+    }
+
+    .card__descriçao-02{
+        display: block;
+        justify-content: center;
+    }
+
+    .descriçao__titulo{
+        color: black;
+        text-decoration: none;
+    }
+
+    .descriçao__paragrafo{
+        color: black;
+        text-decoration: none;
+        margin: 20px;
+    }
+
+    .card__link{
+        background-color:  #167BF7;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .card__descriçao-02{
+        text-align: center;
+        display: block;
+        justify-content: center;
+    }
+}
+
