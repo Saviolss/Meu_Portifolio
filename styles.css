@@ -16,25 +16,7 @@ body{
 }
 
 
-    .lista-menu{
-        display: none;
-    }
 
-    .container__botão{
-        display: none;
-    } 
-
-    .principal__texto{
-        display: none;
-    }
-
-    .principal-img{
-        display: none;
-    }
-
-    .rodape{
-        display: none;
-    }
     
     .moveis{
         text-align: center;
