@@ -4,7 +4,7 @@
     margin: 0;
     padding:0;
 }
-@media screen and (min-width: 419px){
+
 body{
     background-color: black;
     color: white;
@@ -184,9 +184,9 @@ body{
     .lista-menu, .container__botão,.principal__texto,.principal-img,.rodape{
         display: none;
     }
-}
 
-@media screen and (min-width: 1024px){
+
+@media screen and (max-width: 1024px){
     .img-moveis,.texto-moveis,.principal__texto-moveis,.botao-moveis,.inicio-moveis{
         display: none;
     }
