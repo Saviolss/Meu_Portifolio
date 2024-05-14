@@ -180,7 +180,27 @@ body{
         color: red;
         margin: 40px;
     }
+@media screen and (min-width: 419px){
+    .lista-menu{
+        display: none;
+    }
 
+    .container__botão{
+        display: none;
+    } 
+
+    .principal__texto{
+        display: none;
+    }
+
+    .principal-img{
+        display: none;
+    }
+
+    .rodape{
+        display: none;
+    }
+}
 
 @media screen and (min-width: 1024px){
     .img-moveis,.texto-moveis,.principal__texto-moveis,.botao-moveis,.inicio-moveis{
