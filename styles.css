@@ -186,7 +186,7 @@ body{
     }
 
 
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 1024px){
     .img-moveis,.texto-moveis,.principal__texto-moveis,.botao-moveis,.inicio-moveis{
         display: none;
     }
