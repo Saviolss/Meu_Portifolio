@@ -212,7 +212,7 @@ body{
     .cabeçalho__menu-hamburguer{
         width: 100px;
         height: 100px;
-        margin: 15px 16px;
+        margin: 10px 16px;
         background-image: url("./imagens/Menu-Hamburguer.svg");
         display: inline-block;
         background-repeat: no-repeat;
@@ -241,7 +241,7 @@ body{
         display: none; 
         position: absolute;
         top: 100%;
-        width: 6vw;
+        width: 120px;
     }
 
     .container__botão:checked ~ .lista-menu{
@@ -256,6 +256,10 @@ body{
         list-style-type: none;
     }
 
+    .lista__itens-link:hover{
+        color:#167BF7;
+    }        
+    
     .lista__itens,
     .lista__itens-link{
         backdrop-filter: (40px);
@@ -283,11 +287,11 @@ body{
         font-weight: 400;
         font-size: 60px;
         padding: 40px;
-        margin:10px 30px;
+        margin:15px 5px 4px 5px;
     }
 
     .rodape{
-        margin-top: 10%;
+        margin-top: 8%;
         text-align: center;
     }
 
@@ -306,14 +310,14 @@ body{
         font-size: 25px;
         text-align: center;
         color: white;
-        margin:5% 20wv;
+        margin:5% auto;
         background: transparent;
         border: 4px solid white;
         padding: 20px;
     }
 
     .container__2{
-        padding: 50px 37vw;
+        padding: 1% 20vw;
     }
 
     .container__segundario{
