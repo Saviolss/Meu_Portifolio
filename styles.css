@@ -15,7 +15,7 @@ body{
     text-decoration: none;
 }
 
-
+@media screen and (min-width: 400px){
 
     
     .moveis{
@@ -184,7 +184,7 @@ body{
     .lista-menu, .container__botão,.principal__texto,.principal-img,.rodape{
         display: none;
     }
-
+}
 
 @media screen and (min-width: 1024px){
     .img-moveis,.texto-moveis,.principal__texto-moveis,.botao-moveis,.inicio-moveis{
