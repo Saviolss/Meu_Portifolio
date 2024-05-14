@@ -181,23 +181,7 @@ body{
         margin: 40px;
     }
 
-    .lista-menu{
-        display: none;
-    }
-
-    .container__botão{
-        display: none;
-    } 
-
-    .principal__texto{
-        display: none;
-    }
-
-    .principal-img{
-        display: none;
-    }
-
-    .rodape{
+    .lista-menu, .container__botão,.principal__texto,.principal-img,.rodape{
         display: none;
     }
 }
