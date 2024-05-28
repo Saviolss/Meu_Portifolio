@@ -71,7 +71,7 @@ body{
 
     .rodape__3{
         display: flex;
-        margin-top: 70%;
+        margin-top: 68%;
         justify-content: center;
     }
 
@@ -259,7 +259,7 @@ body{
     }
 
     .container__principal{
-        padding:40px 5vw;
+        padding:12px;
         display: flex;
         align-items: center;
         justify-content: space-around;
